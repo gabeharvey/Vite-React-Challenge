@@ -78,6 +78,16 @@
   margin: 5px;
 }
 
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(90deg, #1f1c2c, #928dab);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
 .list-items {
   list-style: none;
 }
