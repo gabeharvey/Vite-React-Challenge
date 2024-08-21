@@ -85,6 +85,11 @@
   align-items: center;
   padding: 1rem 2rem;
   background: linear-gradient(90deg, #1f1c2c, #928dab);
+  background-image: url('../src/assets/react-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
