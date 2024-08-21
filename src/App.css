@@ -45,6 +45,28 @@
 .main-nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(90deg, #1f1c2c, #928dab);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.main-nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.main-nav a:hover {
+  color: #ddd;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 10px;
 }
 
 .left-nav {
