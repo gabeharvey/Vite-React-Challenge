@@ -1,8 +1,10 @@
+import "../src/App.css"
+
 function Navbar () {
     return (
-        <nav>
-            <div>
-                <img src='./src/assets/gabe-photo.jpg' alt='logo'></img>
+        <nav className="main-nav">
+            <div className="left-nav">
+                <img src='./src/assets/gabe-photo.jpg' alt='logo' className="nav-photo"></img>
                 <h3>React Website</h3>
             </div>
             <div>
