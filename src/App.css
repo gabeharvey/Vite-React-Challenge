@@ -80,7 +80,8 @@
 
 .main-content {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   padding: 1rem 2rem;
   background: linear-gradient(90deg, #1f1c2c, #928dab);
