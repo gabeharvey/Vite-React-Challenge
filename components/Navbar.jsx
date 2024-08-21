@@ -4,7 +4,7 @@ function Navbar () {
     return (
         <nav className="main-nav">
             <div className="left-nav">
-                <img src='./src/assets/gabe-photo.jpg' alt='logo' className="nav-photo"></img>
+                <img src='./src/assets/react.svg' alt='logo' className="nav-photo"></img>
                 <h3>React Website</h3>
             </div>
             <div>
